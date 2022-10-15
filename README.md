@@ -1,5 +1,4 @@
-# prueba-conocimiento
+# CRUB - Python y Django
 
-<em>Leeme </em>
 
 https://isaacsandoval.pythonanywhere.com/
