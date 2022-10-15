@@ -1,9 +1,11 @@
 # CRUB - Python y Django
 ![Lenguaje](https://img.shields.io/badge/Python-3.10-orange)
 ![Lenguaje](https://img.shields.io/badge/Django-4.1.2-green)
+![Issue](https://img.shields.io/github/issues/IsaacJSandovalC/prueba-conocimiento?color=blue&label=Issue)
+![Fork](https://img.shields.io/github/forks/IsaacJSandovalC/prueba-conocimiento?color=yellow&label=Forks)
 ![GitHub Org's stars](https://img.shields.io/github/stars/IsaacJSandovalC/prueba-conocimiento?style=social)
 
-Este proyecto fue desplegado en pythonanywhere: [Click Here.](https://isaacsandoval.pythonanywhere.com/)  
+Este proyecto fue desplegado en Python anywhere: [Click Here.](https://isaacsandoval.pythonanywhere.com/)  
 
 ## Tecnologías
 Lista de tencnologias y host para este proyecto:
