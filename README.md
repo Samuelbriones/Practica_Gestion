@@ -1,4 +1,4 @@
 # CRUB - Python y Django
-![Badge Issue][(https://img.shields.io/badge/STATUS-EN%20DESAROLLO-green)](https://img.shields.io/github/issues/IsaacJSandovalC/prueba-conocimiento)
+![Badge en Desarollo](https://img.shields.io/github/issues/IsaacJSandovalC/prueba-conocimiento?color=red&label=Issue)  
 
 https://isaacsandoval.pythonanywhere.com/
