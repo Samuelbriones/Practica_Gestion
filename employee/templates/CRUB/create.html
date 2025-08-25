@@ -1,0 +1,25 @@
+{% extends 'base.html' %}
+
+{% block title %}
+    <title>Crear Empleado</title>
+{% endblock title %}
+
+{% block content %}
+<div class="container py-5">
+    <h1 class="text-center mb-4">Agregar nueva información del empleado</h1>
+
+    <div class="row justify-content-center">
+        <div class="col-md-6">
+            <form method="POST" novalidate>
+                {% csrf_token %}
+                <div class="card p-4 shadow-sm">
+                    {{ form.as_p }}
+                    <div class="text-center mt-3">
+                        <input type="submit" class="btn btn-success" value="Guardar">
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+{% endblock content %}
