@@ -5,6 +5,10 @@ on:
     tags:
       - 'v*'   # Se ejecuta solo cuando hagas push de un tag tipo v1.0, v2.0, etc.
 
+permissions:
+  contents: write   # Necesario para crear releases
+  actions: write    # Para permitir que las acciones creen assets
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -23,6 +27,7 @@ jobs:
         zip -r django_project_build.zip . -x "*.git*"
 
     - name: Crear Release
+      id: create_release
       uses: actions/create-release@v1
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -32,6 +37,8 @@ jobs:
         body: |
           🚀 Release automático generado desde GitHub Actions.
           Contiene el proyecto Django comprimido en ZIP.
+        draft: false
+        prerelease: false
 
     - name: Subir ZIP al Release
       uses: actions/upload-release-asset@v1
@@ -42,4 +49,5 @@ jobs:
         asset_path: ./django_project_build.zip
         asset_name: django_project_build.zip
         asset_content_type: application/zip
+
 
