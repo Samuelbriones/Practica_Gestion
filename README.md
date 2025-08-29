@@ -1,24 +1,36 @@
-# CRUB - Python y Django
-![Lenguaje](https://img.shields.io/badge/Python-3.10-orange)
-![Lenguaje](https://img.shields.io/badge/Django-4.1.2-green)
-![Issue](https://img.shields.io/github/issues/IsaacJSandovalC/prueba-conocimiento?color=blue&label=Issue)
-![Fork](https://img.shields.io/github/forks/IsaacJSandovalC/prueba-conocimiento?color=yellow&label=Forks)
-![GitHub Org's stars](https://img.shields.io/github/stars/IsaacJSandovalC/prueba-conocimiento?style=social)
+# CRUD - Python y Django  
 
-Este proyecto fue desplegado en Python anywhere: [Click Here.](https://isaacsandoval.pythonanywhere.com/)  
+![Lenguaje](https://img.shields.io/badge/Python-3.10-orange)  
+![Framework](https://img.shields.io/badge/Django-4.1.2-green)  
+![Issue](https://img.shields.io/github/issues/IsaacJSandovalC/prueba-conocimiento?color=blue&label=Issues)  
+![Forks](https://img.shields.io/github/forks/IsaacJSandovalC/prueba-conocimiento?color=yellow&label=Forks)  
+![Stars](https://img.shields.io/github/stars/IsaacJSandovalC/prueba-conocimiento?style=social)  
 
-## Tecnologías
-Lista de tencnologias y host para este proyecto:
-* [Python 3.10](https://www.python.org/downloads/)
-* [Django 4.1.2](https://www.djangoproject.com/download/)
-* [Pythonanywhere by Anaconda](https://www.pythonanywhere.com/)
+Este proyecto fue desarrollado por **Samuel Briones** y desplegado en **PythonAnywhere**:  
 
+---
 
-## Instalacíon
-Pasos para clonar y desplegar en localhost. 
-```
-$ python -m pip install django
-$ git clone https://github.com/IsaacJSandovalC/prueba-conocimiento
-$ cd prueba-conocimiento
-$ python manage.py runserve
-```
+## Tecnologías utilizadas  
+
+- [Python 3.10](https://www.python.org/downloads/)  
+- [Django 4.1.2](https://www.djangoproject.com/download/)  
+- [PythonAnywhere](https://www.pythonanywhere.com/)  
+
+---
+
+## Instalación  
+
+Sigue estos pasos para clonar y ejecutar el proyecto en tu máquina local:  
+
+```bash
+# Instalar Django
+python -m pip install django
+
+# Clonar el repositorio
+git clone hhttps://github.com/Samuelbriones/Practica_Gestion.git
+
+# Acceder al directorio del proyecto
+cd Practica_Gestion
+
+# Ejecutar el servidor local
+python manage.py runserver
